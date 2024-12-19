@@ -1,0 +1,11 @@
+@use "./variable.scss" as vars;
+
+@mixin spacing($p: 0px, $m: 0px) {
+  padding: $p;
+  margin: $m;
+}
+
+@mixin colors($bg: aliceblue, $text: white) {
+  background-color: $bg;
+  color: $text;
+}

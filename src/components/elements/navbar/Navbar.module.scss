@@ -1,0 +1,13 @@
+@use '/src/styles/utils.scss' as utils;
+@use '/src/styles/variable.scss' as vars;
+
+.mainNav{
+    @include utils.colors(vars.$white, vars.$black);
+}
+
+.navLinks{
+    @include utils.colors(vars.$dark, vars.$white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

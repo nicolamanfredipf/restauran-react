@@ -1,0 +1,33 @@
+@use "variable.scss" as vars;
+@use "utils.scss" as utils;
+
+html,
+body {
+  @include utils.spacing(0px, 0px);
+  @include utils.colors(aliceblue, white);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: vars.$white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+button{
+  border: none;
+  background-color: vars.$accent;
+  color: vars.$white;
+  font-weight: 600;
+  padding: 10px;
+  transition: all 1s linear;
+}
+
+button:hover{
+  background-color: rgb(253, 188, 67);
+  border-radius: 2px;
+}
+
