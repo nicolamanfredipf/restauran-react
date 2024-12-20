@@ -1,0 +1,13 @@
+.action{
+    color: white;
+    background-color: orange;
+    padding: 15px;
+    font-weight: 600;
+    font-size: large;
+    transition: background-color 1s linear;
+    font-family: "Nunito", serif;
+}
+
+.action:hover{
+    background-color: rgb(255, 186, 57);
+}

@@ -4,11 +4,11 @@ import Home from "../../pages/home/Home";
 import MainLayout from "../layouts/main-layout/MainLayout";
 
 const AppRoutes = () => {
-  const sections = [
-    { id: 1, title: "Sezione 1", content: "Contenuto della sezione 1" },
-    { id: 2, title: "Sezione 2", content: "Contenuto della sezione 2" },
-    { id: 3, title: "Sezione 3", content: "Contenuto della sezione 3" },
-  ];
+  // const sections = [
+  //   { id: 1, title: "Sezione 1", content: "Contenuto della sezione 1" },
+  //   { id: 2, title: "Sezione 2", content: "Contenuto della sezione 2" },
+  //   { id: 3, title: "Sezione 3", content: "Contenuto della sezione 3" },
+  // ];
 
   return (
     <Router>

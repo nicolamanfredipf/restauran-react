@@ -1,13 +1,15 @@
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import "./MainLayout.module.css";
+import style from "./MainLayout.module.css";
 
 function MainLayout({ children }) {
   return (
-    <div className="layout">
-      <Header />
-      <main>{children}</main>
-      <Footer />
+    <div className={style.layout}>
+      <div className={style.page}>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </div>
   );
 }

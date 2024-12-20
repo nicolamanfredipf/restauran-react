@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Heebo", serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nunito", serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a, button{
+    all: unset;
+    cursor: pointer;
+}
