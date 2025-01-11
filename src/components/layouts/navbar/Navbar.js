@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import Button from "../commons/button/Button";
 import style from "./Navbar.module.css";
 
-function Navbar(){
-    return(
+function Navbar() {
+    return (
         <nav>
             <ul className={style.navbar}>
                 <li>
@@ -26,7 +26,7 @@ function Navbar(){
                 </li>
                 <li>
                     <Link to="">
-                    <Button lable="Book A Table" />
+                        <Button lable="Book A Table" />
                     </Link>
                 </li>
             </ul>
