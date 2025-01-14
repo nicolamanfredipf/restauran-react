@@ -1,9 +1,11 @@
+import Logo from "../logo/Logo";
 import Navbar from "../navbar/Navbar";
-
+import styles from "./Header.module.css";
 
 function Header() {
     return (
-        <header>
+        <header className={styles.header}>
+            <Logo />
             <Navbar />
         </header>
     );

@@ -1,0 +1,22 @@
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery li{
+    display: flex;
+    width: 50%;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+.stats h2{
+    color: orange;
+}
