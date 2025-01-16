@@ -1,22 +1,43 @@
-.gallery{
+
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery li {
+  display: flex;
+  width: 50%;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+.stats h2 {
+  color: orange;
+}
+
+@media (min-width: 1024px) {
+  .card-list {
     display: flex;
+    gap: 5%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
+  }
 
-.gallery li{
-    display: flex;
-    width: 50%;
-}
-
-.stats{
+  .about-container{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 10%;
-}
-
-.stats h2{
-    color: orange;
+    justify-content: center;
+  }
+  .gallery{
+    min-width: 45vh;
+  }
 }

@@ -1,6 +1,6 @@
 
 
-function Button({ label }) {
+function Button({ label="" }) {
     return (
         <button>
             {label.toUpperCase()}
