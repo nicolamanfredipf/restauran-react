@@ -23,3 +23,12 @@
     gap: 25px;
 }
 
+@media (min-width:1024px){
+    .dishes{
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+

@@ -30,3 +30,9 @@ p {
   border-bottom: solid 1px gray;
   justify-content: space-between;
 }
+
+@media (min-width: 1024px) {
+  .menu-item {
+    width: 45%;
+  }
+}
