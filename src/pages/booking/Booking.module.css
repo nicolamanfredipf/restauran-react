@@ -21,3 +21,15 @@
     background-color: orange;
     color: white;
 }
+
+@media (min-width: 1024px) {
+    .reservation-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reservation-container section{
+        width: 50%;
+    }
+}
