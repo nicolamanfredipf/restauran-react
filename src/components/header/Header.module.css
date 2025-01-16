@@ -1,5 +1,24 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-button svg {
+  width: 25px;
+  color: gray;
+}
+
+@media (min-width: 1025px) {
+  .menu-button {
+    display: none;
+  }
 }

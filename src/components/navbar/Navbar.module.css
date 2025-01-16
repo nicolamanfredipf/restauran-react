@@ -1,29 +1,81 @@
-.nav{
-    background-color: brown;
-
+/* Navbar principale */
+.nav {
+  display: none; /* Nasconde la navbar di default */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease; /* Transizione fluida */
 }
 
-.nav-list{
-    display: none;
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: blueviolet;
-    flex-grow: 1;
+.nav.visible {
+  width: 100%;
+  display: flex; /* Mostra la navbar quando visibile */
+  flex-direction: column; /* Stile per dispositivi mobili */
 }
 
+.nav.hidden {
+  display: none; /* Nasconde la navbar */
+}
 
-.menu-button{
+/* Lista principale */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Pulsante per il toggle del submenu */
+.pages-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Submenu */
+.sub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem; /* Indentazione per la sub-list */
+  display: none; /* Nasconde il submenu di default */
+  transition: all 0.3s ease; /* Transizione fluida */
+}
+
+.sub-list.visible {
+  display: block; /* Mostra il submenu */
+}
+
+.sub-list.hidden {
+  display: none; /* Nasconde il submenu */
+}
+
+@media (min-width: 1025px) {
+
+  .nav.hidden {
+    width: 60%;
+    display: flex; /* Mostra la navbar quando visibile */
+    flex-direction: column; /* Stile per dispositivi mobili */
+  }
+
+  .nav-list {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border: solid 1px gray;
-    padding: 2px 10px;
-    margin: 0;
-}
+    justify-content: space-evenly;
+  }
 
-.icon{
-    width: 25px;
-    color: gray;
+  .sublist-container{
+    position: relative;
+  }
+
+  .sub-list.visible{
+    position: absolute;
+    top: 35px;
+    left: 15%;
+    transform: translateX(-15%);
+    background-color: black;
+    padding: 15px;
+  }
 }
