@@ -1,0 +1,19 @@
+.service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 0 0 15px 1px white;
+}
+
+.service-card svg{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service-card h4, p{
+    margin: 0;
+    padding: 0;
+}

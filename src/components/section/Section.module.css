@@ -1,3 +1,16 @@
 .section{
     margin: 25px;
 }
+
+.section h4, h2{
+    margin: 0;
+    padding: 0;
+}
+
+.section h4{
+    margin-bottom: 10px;
+}
+
+.section h2{
+    margin-bottom: 50px;
+}
