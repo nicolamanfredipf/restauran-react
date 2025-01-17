@@ -9,9 +9,10 @@
 
 .reservation-form input, select, textarea{
     width: 100%;
-    padding: 15px;
     font-weight: 600;
     color: gray;
+    padding: 10px !important;
+    box-sizing: border-box;
 }
 
 .reservation-form select{

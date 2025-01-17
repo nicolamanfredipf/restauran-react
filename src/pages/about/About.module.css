@@ -1,5 +1,3 @@
-
-
 .gallery {
   display: flex;
   align-items: center;
@@ -12,32 +10,54 @@
   width: 50%;
 }
 
+.stats-container {
+  width: 100%;
+}
+
 .stats {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 10%;
+  padding: 15px;
+}
+
+.stats p {
+  margin: 0;
+  padding: 0;
+  min-width: max-content;
 }
 
 .stats h2 {
+  margin: 0;
+  padding: 0;
   color: orange;
 }
 
 @media (min-width: 1024px) {
   .card-list {
-    display: flex;
-    gap: 5%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
   }
 
-  .about-container{
+  .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .gallery{
+
+  .gallery {
     min-width: 45vh;
+  }
+
+  .stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
   }
 }

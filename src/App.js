@@ -13,20 +13,20 @@ import Menu from './pages/menu/Menu';
 function App() {
   return (
     <Router>
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        {/* <Route path="/service" element={<Home />} /> */}
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/booking" element={<Booking />} />
-        <Route path="/our-team" element={<OurTeam />} />
-        <Route path="/testimonial" element={<Testimonial />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Layout>
-  </Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/our-team" element={<OurTeam />} />
+          <Route path="/testimonial" element={<Testimonial />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 

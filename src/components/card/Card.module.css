@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0 0 15px 1px white;
+    box-shadow: 0 0 15px 1px aliceblue;
     height: 450px;
     margin-bottom: 50px;
 }
@@ -41,7 +41,8 @@
 
 @media (min-width: 1024px) {
     .card{
-        width: 200px;
-        height: auto;
+        width: auto;
+        height: 280px;
+        margin-bottom: 0;
     }
   }

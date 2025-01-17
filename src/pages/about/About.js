@@ -34,21 +34,23 @@ function About() {
             lorem sit.
           </p>
 
-          <div className={styles.stats}>
-            <h2>15</h2>
-            <p>
-              Years of
-              <br />
-              EXPERIENCE
-            </p>
-          </div>
-          <div className={styles.stats}>
-            <h2>50</h2>
-            <p>
-              Popular
-              <br />
-              MASTER CHEFS
-            </p>
+          <div className={styles["stats-container"]}>
+            <div className={styles.stats}>
+              <h2>15</h2>
+              <p>
+                Years of
+                <br />
+                EXPERIENCE
+              </p>
+            </div>
+            <div className={styles.stats}>
+              <h2>50</h2>
+              <p>
+                Popular
+                <br />
+                MASTER CHEFS
+              </p>
+            </div>
           </div>
 
           <Button label={"read more"} />
