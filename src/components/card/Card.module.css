@@ -9,11 +9,11 @@
 }
 
 .card img{
-    height: 80%;
+    width: 200px;
     border-radius: 100%;
-    border: solid 1px;
     aspect-ratio: 1;
     margin: 10%;
+    padding: 015px;
     align-self: center;
 }
 
@@ -44,5 +44,9 @@
         width: auto;
         height: auto;
         margin-bottom: 0;
+    }
+
+    .card img{
+        width: 100px;
     }
   }

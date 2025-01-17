@@ -7,6 +7,23 @@
     gap: 15px;
 }
 
+.elements{
+    padding: 0 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.elements div{
+    width: 100%;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .reservation-form input, select, textarea{
     border: none;
     width: 100%;
@@ -22,4 +39,31 @@
 .reservation-form input[type="submit"]{
     background-color: orange;
     color: white;
+}
+
+@media (min-width:1024px){
+    .elements{
+        flex-direction: row;
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .info div{
+        display: none;
+    }
+
+    .reservation-form{
+        width: 50%;
+    }
+
+    .maps{
+        width: 50%;
+        height: 100%;
+    }
 }

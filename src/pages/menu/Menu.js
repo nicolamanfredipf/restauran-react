@@ -3,10 +3,13 @@ import MenuNavItem from "../../components/menu-nav-item/MenuNavItem";
 import PageHeader from "../../components/page-header/PageHeader";
 import Section from "../../components/section/Section";
 import styles from "./Menu.module.css";
+import menuImg from "../../menu-8.jpg"; 
+
+
 function Menu() {
   return (
     <>
-      <PageHeader title={"Food Menu"} />
+      {/* <PageHeader title={"Food Menu"} /> */}
       <Section sectionTitle="Food Menu" sectionSubtitle="Most Popular Items">
         <nav className={styles["nav-menu"]}>
           <ul>
@@ -37,9 +40,10 @@ function Menu() {
           </ul>
         </nav>
         <ul className={styles.dishes}>
-            <MenuItem/>
-            <MenuItem/>
-            <MenuItem/>
+            <MenuItem dishSrc={menuImg}/>
+            <MenuItem dishSrc={menuImg}/>
+            <MenuItem dishSrc={menuImg}/>
+            <MenuItem dishSrc={menuImg}/>
         </ul>
       </Section>
     </>

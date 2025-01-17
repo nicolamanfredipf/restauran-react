@@ -5,7 +5,7 @@ import styles from "./Booking.module.css";
 function Booking() {
   return (
     <>
-      <PageHeader title={"Booking"} />
+      {/* <PageHeader title={"Booking"} /> */}
       <div className={styles["reservation-container"]}>
         <aside>
           <video></video>

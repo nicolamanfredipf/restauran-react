@@ -1,36 +1,65 @@
-.reservation-form{
+.reservation-container {
+    background-color: #0f172b;
+}
+
+video{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-image: url("https://www.youtube.com/embed/DWRcNpR6Kdc");
+}
+
+.reservation-container div {
+    align-items: flex-start;
+    padding: 0 25px;
+}
+
+.reservation-container h2 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.reservation-form {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 15px;
+    padding: 0 25px;
+    box-sizing: border-box;
 }
 
-.reservation-form input, select, textarea{
+.reservation-form input,
+select,
+textarea {
     width: 100%;
     font-weight: 600;
     color: gray;
     padding: 10px !important;
     box-sizing: border-box;
+    background-color: white;
 }
 
-.reservation-form select{
+.reservation-form select {
     color: gray;
 }
-.reservation-form input[type="submit"]{
+
+.reservation-form input[type="submit"] {
     background-color: orange;
     color: white;
 }
 
 @media (min-width: 1024px) {
-    .reservation-container{
+    .reservation-container {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .reservation-container section{
+    .reservation-container section {
         width: 50%;
     }
 }

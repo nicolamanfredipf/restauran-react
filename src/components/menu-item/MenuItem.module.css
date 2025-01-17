@@ -6,7 +6,7 @@
 }
 
 .menu-item img {
-  width: 35px;
+  width: 50px;
 }
 
 .menu-item-body {
@@ -14,6 +14,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.menu-item-body p {
+  font-style: italic;
 }
 
 .menu-item-body h4,

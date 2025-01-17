@@ -8,7 +8,7 @@ function Service() {
 
     return (
         <>
-            <PageHeader title={'Services'} />
+            {/* <PageHeader title={'Services'} /> */}
             <Section sectionTitle="Our Services" sectionSubtitle="Explore Our Services">
                 <div className={styles["services-container"]}>
                     <ServiceCard

@@ -8,6 +8,11 @@
   border: solid 1px gray;
 }
 
+.card img{
+  width: 50px;
+  border-radius: 50%;
+}
+
 .card svg {
   width: 35px;
 }

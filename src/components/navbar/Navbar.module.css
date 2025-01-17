@@ -39,6 +39,10 @@
   text-align: left;
 }
 
+.pages-button:hover {
+  background: none;
+}
+
 /* Submenu */
 .sub-list {
   list-style: none;

@@ -3,25 +3,26 @@ import Card from "../../components/card/Card";
 import PageHeader from "../../components/page-header/PageHeader";
 import Section from "../../components/section/Section";
 import styles from "./About.module.css";
+import aboutImg from "../../about-1.jpg"; 
 
 function About() {
   return (
     <>
-      <PageHeader title={"About Us"} />
+      {/* <PageHeader title={"About Us"} /> */}
       <div className={styles["about-container"]}>
         <Section>
           <ul className={styles.gallery}>
             <li>
-              <img src="dg" alt="img1" />
+              <img src={aboutImg} alt="img1"/>
             </li>
             <li>
-              <img src="dfgb" alt="img1" />
+              <img src={aboutImg} alt="img1" />
             </li>
             <li>
-              <img src="fdbg" alt="img1" />
+              <img src={aboutImg} alt="img1" />
             </li>
             <li>
-              <img src="dfbg" alt="img1" />
+              <img src={aboutImg} alt="img1" />
             </li>
           </ul>
         </Section>
