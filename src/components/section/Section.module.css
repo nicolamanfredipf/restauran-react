@@ -1,14 +1,15 @@
-.section{
+.section {
     margin: 25px;
     width: 100%;
 }
 
-.section h2,h4{
+.section h2,
+h4 {
     padding: 0;
     margin: 0;
 }
 
-.section-header{
+.section-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,15 +18,10 @@
     margin-bottom: 15px;
 }
 
-.section h4, h2{
-    margin: 0;
-    padding: 0;
-}
-
-.section h4{
+.section h4 {
     margin-bottom: 10px;
 }
 
-.section h2{
+.section h2 {
     margin-bottom: 50px;
 }
