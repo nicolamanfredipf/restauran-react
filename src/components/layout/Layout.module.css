@@ -1,0 +1,9 @@
+@media (min-width: 1024px) {
+  .page {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    background-color: white;
+  }
+}

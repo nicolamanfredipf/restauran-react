@@ -1,9 +1,9 @@
 
 
-function Button({ lable }) {
+function Button({ label="" }) {
     return (
         <button>
-            {lable.toUpperCase()}
+            {label.toUpperCase()}
         </button>
     );
 }

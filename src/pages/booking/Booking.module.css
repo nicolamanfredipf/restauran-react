@@ -1,0 +1,35 @@
+.reservation-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reservation-form input, select, textarea{
+    width: 100%;
+    padding: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+.reservation-form select{
+    color: gray;
+}
+.reservation-form input[type="submit"]{
+    background-color: orange;
+    color: white;
+}
+
+@media (min-width: 1024px) {
+    .reservation-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reservation-container section{
+        width: 50%;
+    }
+}
