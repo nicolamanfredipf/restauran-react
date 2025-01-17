@@ -5,15 +5,26 @@
     justify-content: center;
     gap: 15px;
     padding: 15px;
-    box-shadow: 0 0 15px 1px white;
+    box-shadow: 0 0 15px 1px aliceblue;
+    border: solid 1px rgba(128, 128, 128, 0.1);
 }
 
 .service-card svg{
     height: 50px;
     margin-bottom: 10px;
+    color: orange;
 }
 
 .service-card h4, p{
     margin: 0;
     padding: 0;
+}
+
+.service-card:hover{
+    background-color: orange;
+    color: white;
+}
+
+.service-card:hover svg{
+    color: white;
 }

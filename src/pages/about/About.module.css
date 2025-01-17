@@ -42,9 +42,11 @@
     gap: 15px;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
   }
 
   .about-container {
+    padding: 0 25px;
     display: flex;
     align-items: center;
     justify-content: center;

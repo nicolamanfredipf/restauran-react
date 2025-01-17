@@ -1,20 +1,25 @@
 /* Navbar principale */
 .nav {
-  display: none; /* Nasconde la navbar di default */
+  display: none;
+  /* Nasconde la navbar di default */
   list-style: none;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease; /* Transizione fluida */
+  transition: all 0.3s ease;
+  /* Transizione fluida */
 }
 
 .nav.visible {
   width: 100%;
-  display: flex; /* Mostra la navbar quando visibile */
-  flex-direction: column; /* Stile per dispositivi mobili */
+  display: flex;
+  /* Mostra la navbar quando visibile */
+  flex-direction: column;
+  /* Stile per dispositivi mobili */
 }
 
 .nav.hidden {
-  display: none; /* Nasconde la navbar */
+  display: none;
+  /* Nasconde la navbar */
 }
 
 /* Lista principale */
@@ -39,25 +44,32 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-left: 1rem; /* Indentazione per la sub-list */
-  display: none; /* Nasconde il submenu di default */
-  transition: all 0.3s ease; /* Transizione fluida */
+  padding-left: 1rem;
+  /* Indentazione per la sub-list */
+  display: none;
+  /* Nasconde il submenu di default */
+  transition: all 0.3s ease;
+  /* Transizione fluida */
 }
 
 .sub-list.visible {
-  display: block; /* Mostra il submenu */
+  display: block;
+  /* Mostra il submenu */
 }
 
 .sub-list.hidden {
-  display: none; /* Nasconde il submenu */
+  display: none;
+  /* Nasconde il submenu */
 }
 
 @media (min-width: 1025px) {
 
   .nav.hidden {
     width: 60%;
-    display: flex; /* Mostra la navbar quando visibile */
-    flex-direction: column; /* Stile per dispositivi mobili */
+    display: flex;
+    /* Mostra la navbar quando visibile */
+    flex-direction: column;
+    /* Stile per dispositivi mobili */
   }
 
   .nav-list {
@@ -66,16 +78,17 @@
     justify-content: space-evenly;
   }
 
-  .sublist-container{
+  .sublist-container {
     position: relative;
   }
 
-  .sub-list.visible{
+  .sub-list.visible {
     position: absolute;
     top: 35px;
     left: 15%;
     transform: translateX(-15%);
     background-color: black;
     padding: 15px;
+    z-index: 999;
   }
 }

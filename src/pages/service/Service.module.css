@@ -1,0 +1,15 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 25px;
+
+}
+
+@media (min-width:1024px) {
+    .services-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
+    }
+}

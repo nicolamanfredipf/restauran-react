@@ -42,7 +42,7 @@
 @media (min-width: 1024px) {
     .card{
         width: auto;
-        height: 280px;
+        height: auto;
         margin-bottom: 0;
     }
   }
